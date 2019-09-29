@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "JavaScript Action Template",
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint index.js",
-    "test": "eslint index.js && jest"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/actions/javascript-action.git"
@@ -23,10 +19,7 @@
   },
   "homepage": "https://github.com/actions/javascript-action#readme",
   "dependencies": {
-    "@actions/core": "^1.1.1"
-  },
-  "devDependencies": {
-    "eslint": "^6.3.0",
-    "jest": "^24.9.0"
+    "@actions/core": "^1.1.1",
+    "request": "^2.88.0"
   }
 }

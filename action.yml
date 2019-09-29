@@ -1,13 +1,12 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
+name: 'LINE Notify'
+description: 'LINE Notify for GitHub Actions'
 inputs:
-  milliseconds:  # id of input
-    description: 'number of milliseconds to wait'
+  access_token:
+    description: 'LINE Access Token'
     required: true
-    default: '1000'
-outputs:
-  time: # output will be available to future steps 
-    description: 'The message to output'
+  message:
+    description: 'Message'
+    required: true
 runs:
   using: 'node12'
   main: 'index.js'
