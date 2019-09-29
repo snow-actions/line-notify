@@ -1,11 +1,11 @@
 {
-  "name": "javascript-action",
+  "name": "line-notify",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "LINE Notify for GitHub Actions",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/snow-actions/line-notify.git"
   },
   "keywords": [
     "GitHub",
@@ -15,9 +15,9 @@
   "author": "GitHub",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/snow-actions/line-notify/issues"
   },
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/snow-actions/line-notify#readme",
   "dependencies": {
     "@actions/core": "^1.1.1",
     "request": "^2.88.0"
