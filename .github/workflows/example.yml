@@ -12,3 +12,4 @@ jobs:
           message: |
             Issue is opened.
             #${{ github.event.issue.number }}: ${{ github.event.issue.title }}
+            ${{ github.event.issue.html_url }}
