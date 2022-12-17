@@ -4,10 +4,10 @@
 
 ## Usage
 ```yml
-uses: snow-actions/line-notify@v1.0.0
-with:
-  access_token: ${{ secrets.LINE_ACCESS_TOKEN }}
-  message: some message
+- uses: snow-actions/line-notify@v1.0.0
+  with:
+    access_token: ${{ secrets.LINE_ACCESS_TOKEN }}
+    message: some message
 ```
 
 ## Example
