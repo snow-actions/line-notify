@@ -14,6 +14,6 @@ jobs:
         with:
           access_token: ${{ secrets.LINE_ACCESS_TOKEN }}
           message: |
-            Pull request is opened or updated.
+            Pull request is ${{ github.event.action }}.
             #${{ github.event.number }}: ${{ github.event.pull_request.title }}
             ${{ github.event.pull_request.html_url }}

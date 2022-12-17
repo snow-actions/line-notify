@@ -1,15 +1,15 @@
-name: 'LINE Notify'
-description: 'LINE Notify for GitHub Actions'
+name: LINE Notify
+description: LINE Notify for GitHub Actions
 inputs:
   access_token:
-    description: 'LINE Access Token'
+    description: LINE Access Token
     required: true
   message:
-    description: 'Message'
+    description: Message
     required: true
 runs:
-  using: 'node12'
-  main: 'index.js'
+  using: node16
+  main: index.js
 branding:
-  icon: 'message-circle'
-  color: 'green'
+  icon: message-circle
+  color: green
