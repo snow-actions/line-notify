@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/snow-actions/line-notify#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6",
+    "@actions/core": "^1.9.1",
     "request": "^2.88.0"
   }
 }
