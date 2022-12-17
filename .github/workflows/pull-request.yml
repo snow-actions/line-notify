@@ -2,18 +2,18 @@ name: Notify pull request
 
 on:
   pull_request:
-    types: [opened, reopened]
 
 jobs:
   notify:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - uses: actions/checkout@v2.3.4
+      - uses: actions/checkout@v3
       - uses: ./
         with:
           access_token: ${{ secrets.LINE_ACCESS_TOKEN }}
           message: |
-            Pull request is opened.
+            Pull request is opened or updated.
             #${{ github.event.number }}: ${{ github.event.pull_request.title }}
             ${{ github.event.pull_request.html_url }}
