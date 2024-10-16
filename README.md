@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> [End of service for LINE Notify](https://notify-bot.line.me/closing-announce)
+> 
+> This action will be archived due to the end of service for LINE Notify.
+
 # LINE Notify
 
 [LINE Notify](https://notify-bot.line.me/) for GitHub Actions.
