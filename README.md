@@ -9,7 +9,7 @@
 
 ## Usage
 ```yml
-- uses: snow-actions/line-notify@v1.1.0
+- uses: snow-actions/line-notify@v1.2.0
   with:
     access_token: ${{ secrets.LINE_ACCESS_TOKEN }}
     message: some message
